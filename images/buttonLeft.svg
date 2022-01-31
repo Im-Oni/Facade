@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="33"
+   height="33"
+   viewBox="0 0 33 33"
+   fill="none"
+   version="1.1"
+   id="svg43"
+   sodipodi:docname="buttonLeft.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs47" />
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:snap-others="false"
+     inkscape:snap-grids="true"
+     inkscape:zoom="24.520107"
+     inkscape:rotation="180"
+     inkscape:cx="16.70058"
+     inkscape:cy="16.496665"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg43" />
+  <rect
+     width="33"
+     height="33"
+     fill="#FDD444"
+     id="rect39" />
+  <path
+     d="M12 9L21 16.5L12 24"
+     stroke="white"
+     stroke-width="2"
+     id="path41" />
+</svg>

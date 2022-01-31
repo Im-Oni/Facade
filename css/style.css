@@ -22,6 +22,12 @@ h2{
     font-size: 30px;
 }
 
+
+a{
+    text-decoration: none;
+}
+  
+
 /*Page*/
 .page{
     overflow: hidden;
@@ -399,19 +405,30 @@ h2{
 
 
 .services__item{
-    display: block;
+    display: flex;
+
+    flex-wrap: nowrap;
+    align-items: center;
+    
+
     position: relative;
-    width: 33.33333%;
+    width: 370px;
+    height: 100px;
     
-    padding-top: 40px;
-    padding-bottom: 60px;
-    padding-right: 80px;
-    padding-left: 80px;
-    
-    
+    padding-right: 15px;
+
     font-size: 16px;
     
     transition: background-color .2s linear ;
+}
+
+.services__item__title{
+    
+    margin: 0 10px;
+}
+
+.services__item__title a{
+    color: #002F7D;
 }
 
 .services__icon{
@@ -517,16 +534,50 @@ h2{
     opacity: 1;
 }
 
-.works__items{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.overwrapper{
+
+    margin: 0 auto;
+
+    max-width: 1210px;
+    min-height: 480px;
+    overflow: hidden;
+
 }
 
-.works__item{
-    width: 32%;
 
+
+.works__block{
+    position: relative;
+    max-width: 1170px;
+    margin: 0px auto;
+    
+    
+}
+
+.works__block__inner{
+    width: calc(100% + 30px); 
+    padding: 0 15px; 
+    margin-left: -15px; 
+    
+}
+
+
+.works__item{
+    
+    max-width: 370px;
+    min-height: 432px;
     box-shadow: 0px 15px 50px rgba(67, 76, 109, 0.08);
+    
+} 
+
+.swiper-button-prev{
+    left: 10% !important;
+    
+}
+
+.swiper-button-next{
+    
+    right: 10% !important;
 }
 
 .works__header{
@@ -536,7 +587,7 @@ h2{
 
 .works__photo{
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -556,6 +607,7 @@ h2{
 
 .works__content{
     margin-left: 30px;
+    max-width: 350px;
 }
 
 .works__content__title{
